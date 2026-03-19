@@ -57,7 +57,7 @@ Content pillars for side quest specifically:
 - [PILLAR 3]
 - [PILLAR 4]
 
-See `/sidehustle/content/` for post drafts and content ideas.
+See `/sidequest/content/` for post drafts and content ideas.
 
 ---
 
@@ -85,7 +85,7 @@ See `/sidehustle/content/` for post drafts and content ideas.
 - [OFFERING 2]
 - [OFFERING 3]
 
-See `/sidehustle/offerings/` for offer details.
+See `/sidequest/offerings/` for offer details.
 
 ---
 

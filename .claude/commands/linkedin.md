@@ -13,7 +13,7 @@ Michael has two LinkedIn contexts. Determine which applies before writing:
 
 **Side hustle hat** — credibility anchor: "2 years of EU startup AI research + practising sales leader"
 - Topics: AI × Sales education, teaching stories, course insights, research findings
-- Load: `sidehustle/CONTEXT.md`
+- Load: `sidequest/CONTEXT.md`
 
 **Both hats**: Same voice. The credibility framing and audience intent differs.
 **If unclear**: Ask "Is this rooted in your Toptal leadership experience or your teaching/research work?"

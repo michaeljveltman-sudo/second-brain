@@ -6,7 +6,7 @@ User types: `/lesson [topic] for [AI for Sales | Sales for AI] — [format: modu
 ## What to Do
 
 1. **Identify the context** — Is this for the side quest (public teaching) or internal Toptal team coaching?
-   - Side hustle → load `/sidehustle/CONTEXT.md` + relevant curriculum
+   - Side hustle → load `/sidequest/CONTEXT.md` + relevant curriculum
    - Internal team coaching → load `CLAUDE.md` Toptal context + `/brain/frameworks/toptal-sales-process.md`
 2. **Identify the track** (for side quest):
    - AI for Sales: `/teaching/ai-for-sales/curriculum.md`

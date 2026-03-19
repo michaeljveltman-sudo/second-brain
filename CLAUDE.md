@@ -80,14 +80,14 @@
 
 ---
 
-## Side Quest (see /sidehustle/)
-- `sidehustle/CONTEXT.md` — Side hustle brand, both tracks, audience, current status
-- `sidehustle/content/` — Post drafts, content ideas, marketing copy
-- `sidehustle/offerings/` — Course and workshop details as they launch
+## Side Quest (see /sidequest/)
+- `sidequest/CONTEXT.md` — Side hustle brand, both tracks, audience, current status
+- `sidequest/content/` — Post drafts, content ideas, marketing copy
+- `sidequest/offerings/` — Course and workshop details as they launch
 - `teaching/ai-for-sales/curriculum.md` — Track 1 curriculum
 - `teaching/sales-for-ai/curriculum.md` — Track 2 curriculum
 
-**When working on side quest tasks**: Load `sidehustle/CONTEXT.md` NOT just CLAUDE.md.
+**When working on side quest tasks**: Load `sidequest/CONTEXT.md` NOT just CLAUDE.md.
 
 ---
 

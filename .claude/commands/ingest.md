@@ -93,11 +93,11 @@ Classify the content:
 | Client brief, project doc, job spec | `clients/[client-name]/context.md` |
 | Prospect or lead information | `prospects/[prospect-name]/context.md` |
 | Research, frameworks, teaching material | `brain/knowledge/[topic].md` |
-| Side Quest / AI × Sales content | `sidehustle/content/[topic].md` |
+| Side Quest / AI × Sales content | `sidequest/content/[topic].md` |
 
 If the content clearly matches one category: go to Step 5.
 
-If ambiguous or matching multiple categories equally: pick your best guess and confirm with the user: "This looks like [X] — file under [path]? Or choose: clients / prospects / brain / sidehustle / other." Always recommend one option — never present a tie without a preference.
+If ambiguous or matching multiple categories equally: pick your best guess and confirm with the user: "This looks like [X] — file under [path]? Or choose: clients / prospects / brain / sidequest / other." Always recommend one option — never present a tie without a preference.
 
 If the user chooses "other": ask for the full destination path ("Where should I file this? Give me a path like `notes/topic.md`."), then use that path in Step 5.
 

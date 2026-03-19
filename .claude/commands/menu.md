@@ -1,7 +1,7 @@
 # /menu — Command Launcher
 
 ## Trigger
-User types: `/menu` | `/menu toptal` | `/menu sidehustle`
+User types: `/menu` | `/menu toptal` | `/menu sidequest`
 
 ---
 
@@ -17,7 +17,7 @@ User types: `/menu` | `/menu toptal` | `/menu sidehustle`
 ### Step 2: Determine display mode
 - `/menu` — render BOTH blocks (Toptal + Side Quest)
 - `/menu toptal` — render Toptal block only
-- `/menu sidehustle` — render Side Quest block only
+- `/menu sidequest` — render Side Quest block only
 
 ### Step 3: Render the menu
 
