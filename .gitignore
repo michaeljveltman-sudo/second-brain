@@ -9,6 +9,7 @@ dashboard/index.html
 
 # Personal data
 team/*/log.md
+!team/_template/log.md
 team/ops-log.md
 clients/*/
 prospects/*/
