@@ -41,4 +41,4 @@ Want to add your own commands? Create a plain `.md` file in `.claude/commands/` 
 
 ## Questions / issues
 
-Find me on [LinkedIn](https://linkedin.com/in/michaelveltman).
+Find me on [LinkedIn](https://www.linkedin.com/in/michael-v-499990134/).
