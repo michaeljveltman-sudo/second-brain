@@ -1,4 +1,4 @@
-# Side Hustle Context — [YOUR BRAND NAME]
+# Side Quest Context — [YOUR BRAND NAME]
 
 ## What This Is
 A growing education or consulting business at the intersection of [YOUR EXPERTISE AREA].
@@ -51,7 +51,7 @@ Primary channel: [YOUR PRIMARY CHANNEL]
 Goal: Build audience and credibility before launching paid offers.
 Posting approach: [How you use your channel — personal brand, separate brand, etc.]
 
-Content pillars for side hustle specifically:
+Content pillars for side quest specifically:
 - [PILLAR 1]
 - [PILLAR 2]
 - [PILLAR 3]
@@ -61,15 +61,15 @@ See `/sidehustle/content/` for post drafts and content ideas.
 
 ---
 
-## Side Hustle Voice vs Day Job Voice
+## Side Quest Voice vs Day Job Voice
 
-| Dimension | Day Job Hat | Side Hustle Hat |
+| Dimension | Day Job Hat | Side Quest Hat |
 |-----------|------------|----------------|
-| Audience | [DAY JOB AUDIENCE] | [SIDE HUSTLE AUDIENCE] |
-| Goal | [DAY JOB GOAL] | [SIDE HUSTLE GOAL] |
-| Tone | [DAY JOB TONE] | [SIDE HUSTLE TONE] |
+| Audience | [DAY JOB AUDIENCE] | [SIDE QUEST AUDIENCE] |
+| Goal | [DAY JOB GOAL] | [SIDE QUEST GOAL] |
+| Tone | [DAY JOB TONE] | [SIDE QUEST TONE] |
 | Teaching | Internal team coaching | Paid/public curriculum |
-| Credibility anchor | "[DAY JOB CREDENTIAL]" | "[SIDE HUSTLE CREDENTIAL]" |
+| Credibility anchor | "[DAY JOB CREDENTIAL]" | "[SIDE QUEST CREDENTIAL]" |
 
 **Key**: Both hats use the same voice. The context and audience intent differs.
 
@@ -90,8 +90,8 @@ See `/sidehustle/offerings/` for offer details.
 ---
 
 ## Important Notes for AI
-- When working on side hustle content, load THIS file + the relevant curriculum
+- When working on side quest content, load THIS file + the relevant curriculum
 - Side hustle content should anchor on your credibility and real-world experience
 - Teaching content should always be specific to the track — different audience, different tone
-- Don't mix day-job client details into side hustle content (different confidentiality context)
+- Don't mix day-job client details into side quest content (different confidentiality context)
 - The goal right now is audience building + course development — not closing sales

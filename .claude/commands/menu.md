@@ -15,9 +15,9 @@ User types: `/menu` | `/menu toptal` | `/menu sidehustle`
 - Calculate: `REVENUE_PCT = round((TOPTAL_REVENUE / TOPTAL_TARGET) * 100)`
 
 ### Step 2: Determine display mode
-- `/menu` — render BOTH blocks (Toptal + Side Hustle)
+- `/menu` — render BOTH blocks (Toptal + Side Quest)
 - `/menu toptal` — render Toptal block only
-- `/menu sidehustle` — render Side Hustle block only
+- `/menu sidehustle` — render Side Quest block only
 
 ### Step 3: Render the menu
 
@@ -52,11 +52,11 @@ Use EXACTLY this format. Substitute live values from progress.md.
   /brief           → Create a project or engagement brief
 ```
 
-**For Side Hustle block:**
+**For Side Quest block:**
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🚀  SIDE HUSTLE  ·  [SH_STATUS]  ·  Track 1: [SH_TRACK1_PCT]%  ·  Track 2: [SH_TRACK2_PCT]%
+🚀  SIDE QUEST  ·  [SH_STATUS]  ·  Track 1: [SH_TRACK1_PCT]%  ·  Track 2: [SH_TRACK2_PCT]%
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
   CONTENT
@@ -69,7 +69,7 @@ Use EXACTLY this format. Substitute live values from progress.md.
   Posts: [SH_POSTS_PUBLISHED] published  ·  [SH_POSTS_DRAFTED] drafted
 ```
 
-**When showing both, put Toptal first, then a blank line, then Side Hustle.**
+**When showing both, put Toptal first, then a blank line, then Side Quest.**
 
 **Bottom footer (always show when rendering both or toptal):**
 

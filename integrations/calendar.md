@@ -18,7 +18,7 @@ AI can read my calendar to plan the week, prep for upcoming meetings, and flag s
 - "What meetings do I have tomorrow? What do I need to do before each?"
 
 ## My Calendar Conventions
-- [Add your conventions — e.g. "No meetings before 9am", "Friday afternoons = side hustle work", etc.]
+- [Add your conventions — e.g. "No meetings before 9am", "Friday afternoons = side quest work", etc.]
 
 ## Connection Setup
 [Fill in once connected]

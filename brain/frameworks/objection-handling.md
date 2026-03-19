@@ -76,7 +76,7 @@ Then send exactly what they asked for + a follow-up time.
 
 ---
 
-## Teaching Side Hustle Objections
+## Teaching Side Quest Objections
 
 ### "Is this relevant for someone who's not technical?"
 "The entire point of the AI for Sales track is that you don't need to be technical. Everything I teach is built for people who sell — not people who code."

@@ -73,7 +73,7 @@ Something specific you do that others can steal.
 3. **Contrarian takes** — Disagreeing with consensus AI/sales views
 4. **Research-backed** — Findings from 2 years of EU startup AI research (credibility pillar)
 5. **Remote work / wellbeing** — Human side, occasional personal post
-6. **Teaching** — When the side hustle is more developed, used to build audience
+6. **Teaching** — When the side quest is more developed, used to build audience
 
 ---
 

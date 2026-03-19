@@ -14,7 +14,7 @@
 
 ## My Mission
 **At [YOUR COMPANY]**: [Your primary professional goal this quarter or year]
-**Side hustle**: [Your side hustle goal, or remove this line]
+**Side hustle**: [Your side quest goal, or remove this line]
 
 ---
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Context: Side Hustle / Other Work Context
+## Context: Side Quest / Other Work Context
 <!-- Remove or rename this section if not relevant -->
 
 **The positioning**: [How you position yourself in this space]
@@ -80,14 +80,14 @@
 
 ---
 
-## Side Hustle (see /sidehustle/)
+## Side Quest (see /sidehustle/)
 - `sidehustle/CONTEXT.md` — Side hustle brand, both tracks, audience, current status
 - `sidehustle/content/` — Post drafts, content ideas, marketing copy
 - `sidehustle/offerings/` — Course and workshop details as they launch
 - `teaching/ai-for-sales/curriculum.md` — Track 1 curriculum
 - `teaching/sales-for-ai/curriculum.md` — Track 2 curriculum
 
-**When working on side hustle tasks**: Load `sidehustle/CONTEXT.md` NOT just CLAUDE.md.
+**When working on side quest tasks**: Load `sidehustle/CONTEXT.md` NOT just CLAUDE.md.
 
 ---
 

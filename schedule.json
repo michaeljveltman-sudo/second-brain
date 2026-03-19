@@ -70,6 +70,6 @@
     "admin":         {"label": "Admin",         "color": "#7c3aed"},
     "manager-prep":  {"label": "Manager Prep",  "color": "#d97706"},
     "personal":      {"label": "Personal",      "color": "#dc2626"},
-    "side-hustle":   {"label": "Side Hustle",   "color": "#059669"}
+    "side-hustle":   {"label": "Side Quest",   "color": "#059669"}
   }
 }

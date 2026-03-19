@@ -1,4 +1,4 @@
-# Side Hustle Content
+# Side Quest Content
 
 ## What Goes Here
 - LinkedIn post drafts (before publishing)
@@ -11,7 +11,7 @@
 `[YYYY-MM-DD]-[topic]-[status].md`
 Status: draft / ready / published
 
-## Content Pillars (for side hustle specifically)
+## Content Pillars (for side quest specifically)
 1. AI × Sales insights — from real research and Toptal experience
 2. Teaching stories — what students get wrong, lightbulb moments
 3. Contrarian takes — what the AI/sales hype gets wrong

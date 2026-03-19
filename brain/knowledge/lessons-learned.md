@@ -1,6 +1,6 @@
 # Lessons Learned
 
-Running log of insights from deals, clients, teaching, and building the side hustle.
+Running log of insights from deals, clients, teaching, and building the side quest.
 
 ---
 
@@ -36,7 +36,7 @@ Running log of insights from deals, clients, teaching, and building the side hus
 
 ---
 
-## Side Hustle Lessons
+## Side Quest Lessons
 
 ### [Add what you learn from building the AI × Sales education business]
 
