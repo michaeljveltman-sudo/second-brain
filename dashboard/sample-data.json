@@ -1,0 +1,122 @@
+{
+  "generated": "19 March 2026 · 09:00",
+  "date_label": "Wednesday, 19 Mar 2026",
+  "today_day": "wednesday",
+  "week": 12,
+  "q1_pct": 15.2,
+  "one_on_ones": "2/6",
+  "open_actions": 3,
+  "revenue_pct": 15.2,
+  "progress": {
+    "TOPTAL_REVENUE": 95000,
+    "TOPTAL_TARGET": 624270,
+    "TOPTAL_WEEK": 12,
+    "TOPTAL_1ON1S_DONE": 2,
+    "TOPTAL_1ON1S_TOTAL": 6,
+    "TOPTAL_OPEN_ACTIONS": 3,
+    "SH_TRACK1_PCT": 20,
+    "SH_TRACK2_PCT": 10,
+    "SH_POSTS_PUBLISHED": 1,
+    "SH_POSTS_DRAFTED": 3,
+    "SH_ACTIVE_PIECES": 5,
+    "SH_STATUS": "building"
+  },
+  "team": [
+    {
+      "id": "alex",
+      "name": "Alex Chen",
+      "signal": "green",
+      "signal_text": "Strong",
+      "signal_reason": "Closed 2 deals this week, pipeline healthy",
+      "last_session": "18 March 2026",
+      "last_session_type": "1:1",
+      "rep_actions": ["Follow up with TechCorp", "Send proposal to DataFlow"],
+      "michael_actions": ["Review Alex pipeline by Friday"],
+      "pattern_note": "Consistently closing smaller deals — ready for larger ACV targets.",
+      "entries": []
+    },
+    {
+      "id": "sofia",
+      "name": "Sofia Reyes",
+      "signal": "yellow",
+      "signal_text": "Watch",
+      "signal_reason": "2 deals stuck in eval for 3+ weeks",
+      "last_session": "17 March 2026",
+      "last_session_type": "Pipeline review",
+      "rep_actions": ["Reframe urgency on BuildCo deal", "Book stakeholder intro call"],
+      "michael_actions": ["Help Sofia with BuildCo discovery follow-up"],
+      "pattern_note": "Deals stall at eval stage — needs coaching on champion development.",
+      "entries": []
+    },
+    {
+      "id": "james",
+      "name": "James O'Brien",
+      "signal": "red",
+      "signal_text": "Risk",
+      "signal_reason": "Pipeline thin, missed weekly target 2 weeks in a row",
+      "last_session": "15 March 2026",
+      "last_session_type": "1:1",
+      "rep_actions": ["Book 5 outreach calls this week", "Update CRM with all pipeline notes"],
+      "michael_actions": ["Weekly pipeline check-in with James", "Escalate if no improvement by Wk 13"],
+      "pattern_note": "Activity levels low — may need performance conversation.",
+      "entries": []
+    }
+  ],
+  "commands": [
+    {"group": "🏢 Toptal — Team",     "cmd": "/1on1",       "args": "[name]",    "desc": "Prep a 1:1 before it happens"},
+    {"group": "🏢 Toptal — Team",     "cmd": "/summary",    "args": "[name]",    "desc": "Slack-ready 1:1 summary from transcript"},
+    {"group": "🏢 Toptal — Team",     "cmd": "/log",        "args": "[name]",    "desc": "Log a coaching session"},
+    {"group": "🏢 Toptal — Team",     "cmd": "/teamreview", "args": "",          "desc": "Weekly team review"},
+    {"group": "🏢 Toptal — Pipeline", "cmd": "/pipeline",   "args": "",          "desc": "Review & prioritise pipeline"},
+    {"group": "🏢 Toptal — Pipeline", "cmd": "/discovery",  "args": "[company]", "desc": "Discovery call prep briefing"},
+    {"group": "🏢 Toptal — Pipeline", "cmd": "/followup",   "args": "[company]", "desc": "Post-call follow-up email"},
+    {"group": "🏢 Toptal — Pipeline", "cmd": "/proposal",   "args": "[company]", "desc": "Build a client proposal"},
+    {"group": "🎮 Side Quest",         "cmd": "/linkedin",   "args": "",          "desc": "Draft a LinkedIn post"},
+    {"group": "🎮 Side Quest",         "cmd": "/lesson",     "args": "[topic]",   "desc": "Build teaching content"},
+    {"group": "📄 Docs",              "cmd": "/email",      "args": "",          "desc": "Draft an email in your voice"},
+    {"group": "📄 Docs",              "cmd": "/brief",      "args": "",          "desc": "Create a project brief"},
+    {"group": "⚙️ System",            "cmd": "/progress",   "args": "",          "desc": "View progress bars"},
+    {"group": "⚙️ System",            "cmd": "/menu",       "args": "",          "desc": "Show command launcher"},
+    {"group": "⚙️ System",            "cmd": "/dashboard",  "args": "",          "desc": "Refresh this dashboard"}
+  ],
+  "fields": [
+    {"key": "revenue",   "label": "Revenue (QTD)",        "kv": "TOPTAL_REVENUE"},
+    {"key": "week",      "label": "Current Week",          "kv": "TOPTAL_WEEK"},
+    {"key": "1on1s",     "label": "1:1s Done This Week",   "kv": "TOPTAL_1ON1S_DONE"},
+    {"key": "actions",   "label": "Open Actions",          "kv": "TOPTAL_OPEN_ACTIONS"},
+    {"key": "track1",    "label": "Track 1 Progress (%)",  "kv": "SH_TRACK1_PCT"},
+    {"key": "track2",    "label": "Track 2 Progress (%)",  "kv": "SH_TRACK2_PCT"},
+    {"key": "published", "label": "Posts Published",       "kv": "SH_POSTS_PUBLISHED"},
+    {"key": "drafted",   "label": "Posts Drafted",         "kv": "SH_POSTS_DRAFTED"},
+    {"key": "pieces",    "label": "Active Pieces",         "kv": "SH_ACTIVE_PIECES"},
+    {"key": "status",    "label": "Side Quest Status",     "kv": "SH_STATUS"}
+  ],
+  "schedule": [
+    {"day": "monday",    "label": "Monday",    "is_today": false, "tasks": ["Team standup", "Pipeline review"]},
+    {"day": "tuesday",   "label": "Tuesday",   "is_today": false, "tasks": ["1:1 Alex", "Deal strategy session"]},
+    {"day": "wednesday", "label": "Wednesday", "is_today": true,  "tasks": ["Team huddle", "1:1 Sofia", "Update CRM"]},
+    {"day": "thursday",  "label": "Thursday",  "is_today": false, "tasks": ["1:1 James", "Weekly forecast call"]},
+    {"day": "friday",    "label": "Friday",    "is_today": false, "tasks": ["Team retro", "LinkedIn post", "/tldr"]}
+  ],
+  "meeting_prep": [
+    {"title": "Sofia Reyes 1:1", "day": "wednesday", "notes": "Review BuildCo deal status and coach on champion development."}
+  ],
+  "categories": {},
+  "ops_log": [
+    {"title": "2026-03-18 | Alex Chen | 1:1", "body": "Strong session. Closed TechCorp. Pipeline healthy, 3 deals in late stage.\n✅ win — first enterprise-size deal this quarter."},
+    {"title": "2026-03-17 | James O'Brien | Pipeline review", "body": "Pipeline review flagged: only 2 active deals, both early stage. Activity low.\n🔴 risk — may need performance conversation if no improvement by Wk 13."}
+  ],
+  "ops_highlights": {
+    "actions": ["Follow up with Sofia on BuildCo by Thursday", "Weekly check-in with James — confirm activity targets met"],
+    "patterns": ["Deals stalling at eval stage across 2 reps — needs team-level coaching on champion development"],
+    "risks": ["James pipeline thin — 2nd consecutive week below target"],
+    "wins": ["Alex closed TechCorp — first enterprise-size deal this quarter"]
+  },
+  "manager_todos": [
+    {"rep": "Alex Chen",    "rep_id": "alex",  "action": "Review Alex pipeline by Friday",               "date": "18 March 2026"},
+    {"rep": "Sofia Reyes",  "rep_id": "sofia", "action": "Help Sofia with BuildCo discovery follow-up",  "date": "17 March 2026"},
+    {"rep": "James O'Brien","rep_id": "james", "action": "Weekly pipeline check-in with James",          "date": "15 March 2026"},
+    {"rep": "James O'Brien","rep_id": "james", "action": "Escalate if no improvement by Wk 13",         "date": "15 March 2026"},
+    {"rep": "Team",         "rep_id": "",      "action": "Follow up with Sofia on BuildCo by Thursday",  "date": ""}
+  ]
+}

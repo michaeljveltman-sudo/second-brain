@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Command Centre Dashboard",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["dashboard/serve.sh"],
+      "port": 8042
+    }
+  ]
+}

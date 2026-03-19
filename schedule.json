@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "note": "Weekly recurring tasks + meeting prep. Update 'status' on each task as the week progresses. 'auto' = Claude can handle this with /command. 'manual' = needs your input.",
+
+  "meetingPrep": [
+    {
+      "id": "team-huddle-prep",
+      "name": "Team Huddle Prep",
+      "dueDay": "monday",
+      "dueTime": "09:00",
+      "frequency": "weekly",
+      "slideUrl": "[YOUR SLIDE DECK URL]",
+      "templateUrl": "[YOUR TEMPLATE URL]",
+      "slackAction": "Ping channel announcing slide completion",
+      "slides": [
+        {"slide": 1, "content": "[METRIC 1 — e.g. Revenue Trend screenshot]", "type": "manual-data"},
+        {"slide": 2, "content": "[METRIC 2 — e.g. Revenue vs Target]", "type": "manual-data"},
+        {"slide": 3, "content": "[METRIC 3 — e.g. Top-of-funnel health]", "type": "manual-data"}
+      ],
+      "autoItems": ["narrative commentary", "slack ping after completion"],
+      "status": "pending"
+    },
+    {
+      "id": "manager-1on1-prep",
+      "name": "Manager 1:1 Prep",
+      "dueDay": "monday",
+      "dueTime": "09:00",
+      "frequency": "biweekly",
+      "slideUrl": "[YOUR SLIDE DECK URL]",
+      "slackAction": "Ping channel announcing slide completion",
+      "slides": [
+        {"slide": 1, "content": "[METRIC 1 — e.g. Revenue attainment, Activity Metrics]", "type": "manual-data"},
+        {"slide": 2, "content": "[METRIC 2 — e.g. Task completion, commentary]", "type": "mixed"}
+      ],
+      "autoItems": ["2-week commentary text", "trend narrative", "slack ping after completion"],
+      "status": "pending"
+    }
+  ],
+
+  "weeklyTasks": {
+    "monday": [
+      {"id": "rep1-summary",        "name": "[Rep 1] Summary",               "category": "team",           "auto": true,  "command": "/summary [rep1]",        "status": "pending"},
+      {"id": "huddle-prep-task",    "name": "Huddle Prep",                   "category": "manager-prep",   "auto": "partial", "command": "/prep huddle",       "status": "pending"}
+    ],
+    "tuesday": [
+      {"id": "rep2-11-prep",        "name": "[Rep 2] 1:1 Prep",              "category": "team",           "auto": true,  "command": "/1on1 [rep2]",           "status": "pending"},
+      {"id": "rep3-11-prep",        "name": "[Rep 3] 1:1 Prep",              "category": "team",           "auto": true,  "command": "/1on1 [rep3]",           "status": "pending"}
+    ],
+    "wednesday": [
+      {"id": "rep4-summary",        "name": "[Rep 4] Summary",               "category": "team",           "auto": true,  "command": "/summary [rep4]",        "status": "pending"},
+      {"id": "huddle-summary",      "name": "Huddle Summary",                "category": "team",           "auto": true,  "command": "/summary huddle",        "status": "pending"},
+      {"id": "rep5-prep",           "name": "[Rep 5] Prep",                  "category": "team",           "auto": true,  "command": "/1on1 [rep5]",           "status": "pending"}
+    ],
+    "thursday": [
+      {"id": "ops-log-update",      "name": "Update Manager Ops Log",        "category": "team",           "auto": true,  "command": "/teamreview",            "status": "pending"},
+      {"id": "rep1-summary-thu",    "name": "[Rep 1] Summary",               "category": "team",           "auto": true,  "command": "/summary [rep1]",        "status": "pending"},
+      {"id": "manager-actions",     "name": "Manager 1:1 Action Items",      "category": "manager-prep",   "auto": "partial", "command": "/prep manager",       "status": "pending"},
+      {"id": "coaching-topic",      "name": "Weekly Team Coaching Topic",    "category": "manager-prep",   "auto": true,  "command": "/teamreview coaching",   "status": "pending"},
+      {"id": "monthly-admin",       "name": "Monthly Admin (before [date])", "category": "admin",          "auto": false, "command": null,                     "status": "pending", "monthly": true}
+    ],
+    "friday": [
+      {"id": "pipeline-review",     "name": "Pipeline Review",               "category": "pipeline",       "auto": true,  "command": "/pipeline",              "status": "pending"},
+      {"id": "week-wrap",           "name": "Week Wrap / Next Week Prep",    "category": "team",           "auto": false, "command": null,                     "status": "pending"}
+    ]
+  },
+
+  "categories": {
+    "team":          {"label": "Team",          "color": "#0d9488"},
+    "pipeline":      {"label": "Pipeline",      "color": "#2563eb"},
+    "admin":         {"label": "Admin",         "color": "#7c3aed"},
+    "manager-prep":  {"label": "Manager Prep",  "color": "#d97706"},
+    "personal":      {"label": "Personal",      "color": "#dc2626"},
+    "side-hustle":   {"label": "Side Hustle",   "color": "#059669"}
+  }
+}

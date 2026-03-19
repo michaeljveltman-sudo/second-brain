@@ -1,0 +1,21 @@
+# Sensitive files
+dashboard/credentials.json
+dashboard/token.json
+dashboard/save-auth.sh
+dashboard/token.pickle
+dashboard/__pycache__/
+dashboard/backups/
+dashboard/index.html
+
+# Personal data
+team/*/log.md
+team/ops-log.md
+clients/*/
+prospects/*/
+sessions/
+progress.md
+
+# System
+.DS_Store
+*.pyc
+__pycache__/

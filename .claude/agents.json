@@ -1,0 +1,76 @@
+{
+  "agents": [
+    {
+      "name": "Chief of Staff",
+      "description": "Master orchestrator. Knows everything about your business. Routes tasks to the right agent, manages multi-step workflows, weekly planning.",
+      "context_files": ["CLAUDE.md", "brain/frameworks/", "pipeline/"],
+      "capabilities": ["planning", "routing", "summarization", "prioritization"]
+    },
+    {
+      "name": "Prospect Researcher",
+      "description": "Deep-dives into prospects before discovery calls. Searches LinkedIn, company news, funding rounds, tech stack. Builds pre-call briefings.",
+      "context_files": ["brain/frameworks/discovery-framework.md", "brain/frameworks/qualification-framework.md"],
+      "capabilities": ["web_search", "linkedin_search", "briefing_creation"]
+    },
+    {
+      "name": "Proposal Writer",
+      "description": "Drafts proposals using your templates and past winning proposals. Quality-checks against the rubric.",
+      "context_files": ["brain/templates/proposal-template.md", "brain/frameworks/proposal-structure.md", "brain/frameworks/quality-standards.md"],
+      "capabilities": ["proposal_drafting", "quality_check", "personalization"]
+    },
+    {
+      "name": "Sales Coach",
+      "description": "Reviews deals in pipeline, suggests next actions, identifies stuck deals, coaches on objection handling. Thinks like a senior sales leader.",
+      "context_files": ["brain/frameworks/qualification-framework.md", "brain/frameworks/objection-handling.md", "brain/frameworks/toptal-sales-process.md", "pipeline/"],
+      "capabilities": ["deal_review", "coaching", "pipeline_analysis", "objection_response"]
+    },
+    {
+      "name": "Content Creator",
+      "description": "Creates LinkedIn posts, email newsletters, and teaching content in your voice. Knows your audience segments and content pillars.",
+      "context_files": ["CLAUDE.md", "brain/frameworks/quality-standards.md", "brain/knowledge/content-calendar.md"],
+      "capabilities": ["linkedin_posts", "newsletters", "content_strategy", "voice_matching"]
+    },
+    {
+      "name": "Track 1 Tutor",
+      "description": "Specialist in the Track 1 curriculum. Creates lesson plans, exercises, examples, and student materials.",
+      "context_files": ["teaching/ai-for-sales/curriculum.md", "brain/templates/lesson-plan.md", "brain/knowledge/ai-tools-for-sales.md"],
+      "capabilities": ["lesson_creation", "exercise_design", "curriculum_development"]
+    },
+    {
+      "name": "Track 2 Tutor",
+      "description": "Specialist in the Track 2 curriculum. Creates content that helps your target audience learn the fundamentals.",
+      "context_files": ["teaching/sales-for-ai/curriculum.md", "brain/templates/lesson-plan.md"],
+      "capabilities": ["lesson_creation", "exercise_design", "curriculum_development"]
+    },
+    {
+      "name": "Email Ghostwriter",
+      "description": "Drafts all outbound emails, follow-ups, and client communications in your exact voice. Never over 5 sentences. Always one clear ask.",
+      "context_files": ["CLAUDE.md", "brain/frameworks/quality-standards.md", "brain/templates/follow-up-email.md"],
+      "capabilities": ["email_drafting", "subject_line_writing", "voice_matching"]
+    },
+    {
+      "name": "Pipeline Manager",
+      "description": "Tracks and analyzes the sales pipeline. Flags risks, suggests actions, identifies patterns across deals. Works with CRM data.",
+      "context_files": ["pipeline/", "brain/frameworks/toptal-sales-process.md", "brain/frameworks/qualification-framework.md", "integrations/hubspot.md"],
+      "capabilities": ["pipeline_analysis", "forecasting", "deal_scoring", "crm_access"]
+    },
+    {
+      "name": "Meeting Summarizer",
+      "description": "Takes rough call notes and turns them into clean, structured meeting summaries with action items and next steps. Files to the right client/prospect folder.",
+      "context_files": ["brain/templates/meeting-notes.md", "clients/", "prospects/"],
+      "capabilities": ["note_processing", "action_item_extraction", "filing"]
+    },
+    {
+      "name": "LinkedIn Scout",
+      "description": "Researches prospects and partners on LinkedIn. Finds mutual connections, recent posts, career history, engagement patterns.",
+      "context_files": ["integrations/linkedin.md", "brain/frameworks/discovery-framework.md"],
+      "capabilities": ["linkedin_search", "profile_analysis", "connection_mapping"]
+    },
+    {
+      "name": "Teaching Program Builder",
+      "description": "Designs new workshops, courses, or coaching programs from scratch. Handles curriculum architecture, pricing, positioning, and marketing copy.",
+      "context_files": ["teaching/", "CLAUDE.md"],
+      "capabilities": ["curriculum_design", "program_architecture", "pricing_strategy", "positioning"]
+    }
+  ]
+}
